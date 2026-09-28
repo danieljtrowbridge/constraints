@@ -1,1 +1,10 @@
 packages: .
+
+allow-newer:
+  boring:base
+
+source-repository-package
+  location: https://github.com/haskell-unordered-containers/hashable.git/
+  tag: c7202c5a061a46753f2cd0b6bd82a40ee22ee401
+  type: git
+  --sha256: h3HWovVuEVJ9bZ1eRSZs3vH2oRkkReLzjQKQ04ZuSLE=
